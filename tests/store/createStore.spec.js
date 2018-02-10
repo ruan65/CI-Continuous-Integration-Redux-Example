@@ -1,8 +1,8 @@
 import {
   default as createStore
 } from 'store/createStore'
-
-describe('(Store) createStore', () => {
+// add comment for testing and some spaces below
+describe('(Store) createStore', ()   => {
   let store
 
   before(() => {
