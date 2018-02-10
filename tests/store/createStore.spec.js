@@ -20,7 +20,7 @@ describe('(Store) createStore', () => {
         pathname : '/echo'
       }
       store.dispatch({
-        type    : 'LOCATION_CHANGE',
+        type    : 'LOCATION_CHANGE_NEW_BUGGY',
         payload : location
       })
       expect(store.getState().location).to.deep.equal(location)
