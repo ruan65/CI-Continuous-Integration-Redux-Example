@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/tmp
+    working_directory: ~/dev/cirlceci_working_dir
     docker:
-      - image: circle/node:8
+      - image: circleci/node
     steps:
       - checkout
       - run: npm install
